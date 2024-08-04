@@ -15,17 +15,18 @@ class Address(models.Model):
 
 class Housing(models.Model):
     HOUSING_CHOICES = [
-        ('H', 'Haus'),
-        ('A', 'Apartment'),
-        ('O', 'Office'),
-        ('H', 'Hall'),
-        ('L', 'Land plot'),
+        ('H', _('Haus')),
+        ('A', _('Apartment')),
+        ('O', _('Office')),
+        ('H', _('Hall')),
+        ('L', _('Land plot')),
     ]
     name = models.CharField(_('Name'), max_length=100)
     description = models.TextField(_('Description'), )
     price = models.DecimalField(_('Price'), max_digits=10, decimal_places=2)
     rooms = models.IntegerField(_('Rooms'), )
-    type = models.CharField(_('Type'), max_length=100)
+    type = models.CharField(_('Type'), max_length=50, choices=HOUSING_CHOICES)
+
 
     def __str__(self):
         return self.name

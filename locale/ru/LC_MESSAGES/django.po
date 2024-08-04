@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-04 10:31+0200\n"
+"POT-Creation-Date: 2024-08-04 12:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,10 @@ msgstr "Русский"
 msgid "German"
 msgstr "Немецкий"
 
+#: .\config\urls.py:27
+msgid "admin/"
+msgstr ""
+
 #: .\housing\models.py:6
 msgid "Country"
 msgstr "Страна"
@@ -44,13 +48,29 @@ msgstr "Город"
 msgid "Street"
 msgstr "Улица"
 
-#: .\housing\models.py:9
+#: .\housing\models.py:9 .\housing\models.py:18
 msgid "Haus"
 msgstr "Дом"
 
 #: .\housing\models.py:10
 msgid "Post"
 msgstr "Почтовый индекс"
+
+#: .\housing\models.py:19
+msgid "Apartment"
+msgstr "Квартира"
+
+#: .\housing\models.py:20
+msgid "Office"
+msgstr "Бюро"
+
+#: .\housing\models.py:21
+msgid "Hall"
+msgstr "Помещение"
+
+#: .\housing\models.py:22
+msgid "Land plot"
+msgstr "Земельный участок"
 
 #: .\housing\models.py:24
 msgid "Name"
@@ -71,3 +91,14 @@ msgstr "Количество комнат"
 #: .\housing\models.py:28
 msgid "Type"
 msgstr "Тип"
+
+#: .\housing\views.py:10
+msgid "About"
+msgstr "О сайте"
+
+#: .\housing\views.py:14
+msgid "Contacts"
+msgstr "Контакты"
+
+msgid "Main page"
+msgstr "Главная"
