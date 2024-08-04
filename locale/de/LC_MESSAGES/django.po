@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-04 10:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\config\settings.py:112
+msgid "English"
+msgstr "Englisch"
+
+#: .\config\settings.py:113
+msgid "Russian"
+msgstr "Russisch"
+
+#: .\config\settings.py:114
+msgid "German"
+msgstr "Deutsch"
+
+#: .\housing\models.py:6
+msgid "Country"
+msgstr "Staat"
+
+#: .\housing\models.py:7
+msgid "City"
+msgstr "Stadt"
+
+#: .\housing\models.py:8
+msgid "Street"
+msgstr "Straße"
+
+#: .\housing\models.py:9
+msgid "Haus"
+msgstr "Hause"
+
+#: .\housing\models.py:10
+msgid "Post"
+msgstr "Post Code"
+
+#: .\housing\models.py:24
+msgid "Name"
+msgstr "Name"
+
+#: .\housing\models.py:25
+msgid "Description"
+msgstr "Beschreibung"
+
+#: .\housing\models.py:26
+msgid "Price"
+msgstr "Preis"
+
+#: .\housing\models.py:27
+msgid "Rooms"
+msgstr "Zimmer"
+
+#: .\housing\models.py:28
+msgid "Type"
+msgstr "Typ"
