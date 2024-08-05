@@ -100,3 +100,6 @@ msgstr "Kontakte"
 
 msgid "Main page"
 msgstr "Haupt Page"
+
+msgid "Object"
+msgstr "Objekt"

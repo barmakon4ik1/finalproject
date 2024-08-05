@@ -7,6 +7,14 @@ def title1(text):
     return f'<h1>{text}</h1>'
 
 
+def title2(text):
+    return f'<h2>{text}</h2>'
+
+
+def title3(text):
+    return f'<h3>{text}</h3>'
+
+
 def index(request):
     main_page = _("Main page")
     return HttpResponse(title1(main_page))
