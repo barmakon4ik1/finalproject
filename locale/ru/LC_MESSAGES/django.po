@@ -102,3 +102,6 @@ msgstr "Контакты"
 
 msgid "Main page"
 msgstr "Главная"
+
+msgid "Object"
+msgstr "Объект"
